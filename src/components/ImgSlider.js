@@ -32,6 +32,7 @@ function ImgSlider() {
          </Wrap>
          
          
+         
     </Carousel>
   )
 }

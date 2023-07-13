@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 
@@ -6,8 +7,9 @@ function Header() {
   return (
     
       <Nav>
+        <Link to="/">
         <Logo src="logo.svg"/>
-      
+        </Link>
         <NavMenu>
             <a>
                 <img src="home-icon.svg" alt="hm" />
@@ -38,9 +40,9 @@ function Header() {
            
 
         </NavMenu>
-
+       <Link to="/login">
         <UserImg src="mypic.jpg"/>
-
+        </Link>
 
 
       </Nav>
